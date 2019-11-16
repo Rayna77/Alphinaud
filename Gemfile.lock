@@ -33,7 +33,7 @@ GEM
     et-orbi (1.1.0)
       tzinfo
     event_emitter (0.2.6)
-    ffi (1.9.23)
+    ffi (1.11.2)
     http-accept (1.7.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
@@ -88,7 +88,6 @@ DEPENDENCIES
   discordrb!
   nokogiri
   redis-namespace
-  rest-client
   rufus-scheduler
 
 BUNDLED WITH
