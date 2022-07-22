@@ -67,9 +67,8 @@ GEM
     sshkit (1.16.0)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
-    thread_safe (0.3.6)
-    tzinfo (1.2.5)
-      thread_safe (~> 0.1)
+    tzinfo (2.0.5)
+      concurrent-ruby (~> 1.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.5)
@@ -88,7 +87,6 @@ DEPENDENCIES
   discordrb!
   nokogiri
   redis-namespace
-  rest-client
   rufus-scheduler
 
 BUNDLED WITH
